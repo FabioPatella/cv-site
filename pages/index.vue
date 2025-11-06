@@ -13,9 +13,9 @@
             <a href="#projects" :class="linkClass('projects')" @click.prevent="handleNavClick('projects')">Projects</a>
             <a href="#contact" :class="linkClass('contact')" @click.prevent="handleNavClick('contact')">Contact</a>         
             <div class="flex items-center gap-1 text-sm font-medium">
-  <a href="/" class="text-blue-600 underline underline-offset-4 font-semibold">EN</a>
+  <a href="/" class="text-blue-600 underline decoration-blue-600 underline-offset-4 font-semibold">EN</a>
   <span class="text-gray-300">|</span>
-  <a href="/it" class="text-gray-400 hover:text-gray-700 transition-colors">IT</a>
+  <a href="/it" class="text-gray-600 hover:text-gray-900 transition-colors">IT</a>
 </div>
           </div>
         </div>
@@ -37,7 +37,7 @@
               Recent graduate in Computer Science and Engineering from Politecnico di Milano, possessing cross-disciplinary skills in computer science with a specialization in software engineering. Based in Milan, Italy.
             </p>
             <div class="flex flex-wrap gap-4">
-              <a href="#contact" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition shadow-lg shadow-blue-600/30">
+              <a href="#contact" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition shadow-lg">
                 Get in Touch
               </a>
               <a href="https://linkedin.com/in/fabio-patella" target="_blank" class="bg-white text-gray-900 px-8 py-3 rounded-lg font-medium hover:bg-gray-50 transition shadow-md border border-gray-200">
@@ -189,18 +189,14 @@
           </a>
           <a href="https://linkedin.com/in/fabio-patella" target="_blank" class="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-xl border border-blue-200 hover:border-blue-400 hover:shadow-xl transition group text-center">
             <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition">
-              <svg viewBox="0 0 24 24" aria-hidden="true" class="w-8 h-8 fill-white">
-                <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8.16h5V24H0V8.16zM8.98 8.16h4.78v2.16h.07c.66-1.25 2.27-2.57 4.68-2.57 5 0 5.92 3.29 5.92 7.57V24h-5v-6.93c0-1.65-.03-3.77-2.3-3.77-2.3 0-2.65 1.8-2.65 3.65V24h-5V8.16z"/>
-              </svg>
+              <span class="text-4xl">💼</span>
             </div>
             <p class="text-xs text-gray-500 uppercase font-semibold tracking-wide mb-2">LinkedIn</p>
             <p class="text-gray-900 font-semibold">fabio-patella</p>
           </a>
           <a href="https://github.com/FabioPatella" target="_blank" class="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-xl border border-blue-200 hover:border-blue-400 hover:shadow-xl transition group text-center">
             <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition">
-              <svg viewBox="0 0 24 24" aria-hidden="true" class="w-8 h-8 fill-white">
-                <path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2c-3.22.7-3.9-1.4-3.9-1.4-.53-1.36-1.3-1.72-1.3-1.72-1.06-.72.08-.71.08-.71 1.18.08 1.8 1.22 1.8 1.22 1.04 1.79 2.73 1.27 3.4.97.11-.76.41-1.27.75-1.56-2.57-.29-5.28-1.28-5.28-5.7 0-1.26.45-2.29 1.2-3.1-.12-.3-.52-1.52.11-3.18 0 0 .98-.31 3.2 1.18a11.1 11.1 0 0 1 5.82 0c2.22-1.49 3.2-1.18 3.2-1.18.63 1.66.23 2.88.11 3.18.75.81 1.2 1.84 1.2 3.1 0 4.43-2.71 5.4-5.29 5.69.42.36.8 1.07.8 2.17v3.22c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .5Z"/>
-              </svg>
+              <span class="text-4xl">🔗</span>
             </div>
             <p class="text-xs text-gray-500 uppercase font-semibold tracking-wide mb-2">GitHub</p>
             <p class="text-gray-900 font-semibold">FabioPatella</p>
